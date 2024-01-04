@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: media
-title: "Home"
+title: ""
 ---
 
 <img style="float: left; padding-right:20px;" src="profile_pic.jpg" width="200" height="100">
