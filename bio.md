@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_bio
 categories: media
 title: ""
 ---
