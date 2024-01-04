@@ -16,22 +16,22 @@ title: ""
 ## Experience
 
 * Graduate Research Assistant (Sept 2023 - Present)
-    * Autonomous System Lab, University of Waterloo
+    * [Autonomous System Lab](https://uwaterloo.ca/autonomous-systems-lab/), University of Waterloo
     * Topic: Learning motion planners in uncertain environments with dense obstacles
     * Advisor: Prof. Stephen L. Smith
  
 * Post-baccalaureate Research Assistant (May 2022 - Aug 2023)
-    * Intelligent Motion Lab, University of Illinois at Urbana-Champaign
+    * [Intelligent Motion Lab](https://motion.cs.illinois.edu/), University of Illinois at Urbana-Champaign
     * Topic: Mobile robot teleoperation, attentiveness estimation, obstacle avoidance
     * Advisor: Prof. Kris Hauser
       
 * Undergraduate Research Assistant (May 2021 - May 2022)
-    * Human-Centered Autonomy Lab, University of Illinois at Urbana-Champaign
+    * [Human-Centered Autonomy Lab](https://thehcalab.web.illinois.edu/), University of Illinois at Urbana-Champaign
     * Topic: Human intention prediction, collaborative manufacturing
     * Advisor: Prof. Katherine Driggs-Campbell
       
 * Computer Vision & Algorithm Intern (May 2021 - Jul 2021)
-     * Golden Ridge Robotics
+     * [Golden Ridge Robotics](https://goldenridge.cn/)
      * Topic: Robot vision, learning, obstacle recognition and detection
 
 ## Awards and Honors
