@@ -4,7 +4,8 @@ categories: media
 title: ""
 ---
 
-![image](profile_pic.jpg){: style="float: right"}
+<img style="float: right;" src="profile_pic.jpg" width="200" height="100">
+
 
 I am a master's student researching at the Autonomous System Lab at the University of Waterloo, advised by Prof. Stephen L. Smith. I graduated with a B.S. in Computer Science from the University of Illinois at Urbana-Champaign (UIUC) in 2022. During my undergraduate study, I had the pleasure of working with Prof. Katherine Driggs-Campbell in hierarchical human intention tracking for human-robot collaborations. After graduating from UIUC, I was honored to work with Prof. Kris Hauser as a post-baccalaureate research assistant on attentiveness estimation for mobile robot teleoperation. 
 
