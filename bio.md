@@ -18,3 +18,20 @@ title: ""
     * Autonomous System Lab, University of Waterloo
     * Topic: Learning motion planners in uncertain environments with dense obstacles
     * Advisor: Professor Stephen L. Smith
+ 
+* Post-baccalaureate Research Assistant (May 2022 - Aug 2023)
+    * Intelligent Motion Lab, University of Illinois at Urbana-Champaign
+    * Topic: Mobile robot teleoperation, attentiveness estimation, obstacle avoidance
+    * Advisor: Professor Kris Hauser
+      
+* Undergraduate Research Assistant (May 2021 - May 2022)
+    * Human-Centered Autonomy Lab, University of Illinois at Urbana-Champaign
+    * Topic: Human intention prediction, collaborative manufacturing
+    * Advisor: Professor Katherine Driggs-Campbell
+      
+* Computer Vision & Algorithm Intern (May 2021 - Jul 2021)
+     * Golden Ridge Robotics
+     * Topic: Robot vision, learning, obstacle recognition and detection
+
+## Awards and Honors
+
