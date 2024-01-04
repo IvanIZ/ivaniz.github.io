@@ -35,3 +35,7 @@ title: ""
 
 ## Awards and Honors
 
+* University of Waterloo International Master’s Award of Excellence CAD 12,500 (Nov 2023)
+* UIUC Dean's List for 7 semesters (Fall 2018 - Spring 2020, Spring 2021 - Spring 2022)
+* James Scholars 2 semesters (Fall 2021, Spring 2022)
+
