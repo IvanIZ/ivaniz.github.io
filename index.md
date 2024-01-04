@@ -9,4 +9,5 @@ I am a master's student researching at the Autonomous System Lab at the Universi
 My research interests are in artificial intelligence and robotics, in particular in the context of planning and control for mobile robot obstacle avoidance. 
 
 ## News
-* [Dec. 2024] Our paper "Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach" was accepted by IEEE RA-L!
+* [Dec 2024] Our paper "Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach" has been accepted by IEEE RA-L for publication!
+* [Jan 2023] Our paper "Hierarchical Intention Tracking for Robust Human-Robot Collaboration in Industrial Assembly Tasks" has been accepted by ICRA 2023 for publication!
