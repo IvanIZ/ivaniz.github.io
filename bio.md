@@ -39,3 +39,7 @@ title: ""
 * UIUC Dean's List for 7 semesters (Fall 2018 - Spring 2020, Spring 2021 - Spring 2022)
 * James Scholars for 2 semesters (Fall 2021, Spring 2022)
 
+## Teaching
+
+* Undergraduate Teaching/Lab Assistant (Principles of Safe Autonomy, Spring 2022)
+
