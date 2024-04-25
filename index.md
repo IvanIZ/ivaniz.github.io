@@ -9,7 +9,7 @@ title: ""
 <p style="margin-top:1cm;"></p>
 I am a master's student researching at the [Autonomous System Lab](https://uwaterloo.ca/autonomous-systems-lab/) at the University of Waterloo, advised by [Prof. Stephen L. Smith](https://uwaterloo.ca/autonomous-systems-lab/profiles/stephen-smith). I graduated with a B.S. in Computer Science from the University of Illinois at Urbana-Champaign (UIUC) in 2022. During my undergraduate study, I had the pleasure of working with [Prof. Katherine Driggs-Campbell](https://krdc.web.illinois.edu/) in hierarchical human intention tracking for human-robot collaborations. After graduating from UIUC, I was honored to work with [Prof. Kris Hauser](https://kkhauser.web.illinois.edu/) as a post-baccalaureate research assistant on obstacle avoidance assistance for mobile robot teleoperation. 
 
-My research interests are in artificial intelligence and robotics, particularly in the context of planning and control for mobile robot obstacle avoidance. 
+My research interests are in robotics and robot learning, particularly in the context of planning and control. 
 
 
 ## News
