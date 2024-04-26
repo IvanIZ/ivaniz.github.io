@@ -11,7 +11,7 @@ This page shows my unpublished projects. For published projects, please see my [
 
 ## Multi-Channel Human Pet Robot Interaction
 
-<img style="float: left; padding-right:20px;" src="assests/hardware_figure.jpg" width="200" height="100">
+<img style="float: left; padding-right:20px;" src="assets/hardware_figure.jpg" width="200" height="100">
 
 * Page content under construction...
 
