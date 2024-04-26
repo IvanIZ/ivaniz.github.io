@@ -9,7 +9,7 @@ title: ""
 This page shows my unpublished (but fun!) projects. For published research projects, please see my [publication page](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao).
 
 
-<h2 style="margin-bottom: 0;">Context-Aware Human-Pet-Robot Interactions</h2>
+## Context-Aware Human-Pet-Robot Interactions
 <span style="margin-top: 0; color: blue; font-size: 14px;">\#Human-Robot Interactions</span>; <span style="color: blue; font-size: 14px;">\#Human Intent Predictions</span>
 <img style="float: right; padding-left:20px;" src="/assets/hardware_figure.jpg" width="200" height="100">
 
