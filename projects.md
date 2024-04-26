@@ -19,5 +19,5 @@ Pet ownership is on the rise, yet the time and financial commitments it demands 
 ## SLAM-based Attentiveness Map Estimation
 <img style="float: right; padding-left:20px;" src="slam_based_ame.png" width="200" height="100">
 
-* page content under construction...Coming soon!
+* Page content under construction...Coming soon!
 
