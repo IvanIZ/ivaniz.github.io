@@ -6,7 +6,7 @@ title: ""
 ---
 
 
-<img style="float: left; padding-right:20px;" src="profile_pic.jpg" width="200" height="100">
+<img style="float: left; padding-right:20px;" src="/assets/hardware_figure.jpg" width="200" height="100">
 
 In this work...
 
