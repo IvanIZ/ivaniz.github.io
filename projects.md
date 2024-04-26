@@ -17,7 +17,6 @@ Pet ownership is on the rise, yet the time and financial commitments it demands 
 [[Report](https://ivaniz.github.io/Context_aware_HRI_Report.pdf)] [[Demo Video](https://drive.google.com/file/d/1FZqU1ECDhD2d93hmC90mmE7PjuCymzC-/view?usp=sharing)]
 
 ## SLAM-based Attentiveness Map Estimation
-<img style="float: right; padding-left:20px;" src="slam_based_ame.jpg" width="200" height="100">
 
 * Page content under construction...Coming soon!
 
