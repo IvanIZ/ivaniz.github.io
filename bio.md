@@ -42,5 +42,9 @@ title: ""
 
 ## Teaching
 
+* [ECE484 - Principles of Safe Autonomy](https://publish.illinois.edu/safe-autonomy/)
+   * Teaching Assistant, University of Illinois at Urbana-Champaign, Spring 2022
+* ECE208 - Discrete Math II
+   * Teaching Assistant, University of Waterloo, Spring 2024
 * Undergraduate Teaching/Lab Assistant (Principles of Safe Autonomy, Spring 2022)
 
