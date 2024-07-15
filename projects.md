@@ -6,7 +6,7 @@ title: ""
 ---
 
 # Projects
-This page shows my unpublished (but fun!) projects. For published research projects, please see my [publication page](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao).
+This page shows my side projects. For published research projects, please see my [publication page](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao).
 
 
 ## Context-Aware Human-Pet-Robot Interactions
