@@ -5,7 +5,6 @@ title: ""
 
 ---
 
-# Selected Publications
 For a complete list of my publications, please visit my [Google Scholar](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao).
 
 
