@@ -36,4 +36,4 @@ RA-L 2024 <br>
 Collaborative robots require effective human intention estimation to safely and smoothly work with humans in less structured tasks such as industrial assembly, where human intention continuously changes. We propose the concept of intention tracking and introduce a collaborative robot system that concurrently tracks intentions at hierarchical levels. The high-level intention is tracked to estimate human's interaction pattern and enable robot to (1) avoid collision with human to minimize interruption and (2) assist human to correct failure. The low-level intention estimate provides robot with task-related information. We implement the system on a UR5e robot and demonstrate robust, seamless and ergonomic human-robot collaboration in an ablative pilot study of an assembly use case.
 
 ICRA 2023 <br> 
-[[paper](https://ieeexplore.ieee.org/abstract/document/10160515)][[Project Page](https://sites.google.com/view/hierarchicalintentiontracking)]
+[[paper](https://ieeexplore.ieee.org/abstract/document/10160515)][[project page](https://sites.google.com/view/hierarchicalintentiontracking)]
