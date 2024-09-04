@@ -25,7 +25,7 @@ Under Review ICRA 2025 <br>
 Haptic feedback can improve safety of teleoperated robots when situational awareness is limited or operators are inattentive. Standard potential field approaches increase haptic resistance as an obstacle is approached, which is desirable when the operator is unaware of the obstacle but undesirable when the movement is intentional, such as when the operator wishes to inspect or manipulate an object. This paper presents a novel haptic teleoperation framework that estimates the operator's attentiveness to obstacles and dampens haptic feedback for intentional movement. A biologically-inspired attention model is developed based on computational working memory theories to integrate visual saliency estimation with spatial mapping. The attentiveness map is generated in real-time, and our system renders lower haptic forces for obstacles that the operator is estimated to be aware of. Experimental results in simulation show that the proposed framework outperforms haptic teleoperation without attentiveness estimation in terms of task performance, robot safety, and user experience.
 
 RA-L 2024 <br> 
-[[Paper](https://ieeexplore.ieee.org/abstract/document/10400830)]
+[[Paper](https://ieeexplore.ieee.org/abstract/document/10400830)][[Video](https://drive.google.com/file/d/107Mi25OYJLrMjxFr7Zrt1dxcU89oRw4U/view?usp=drive_link)]
 <br>
 <p style="margin-top: 40px;"></p>
 ---
