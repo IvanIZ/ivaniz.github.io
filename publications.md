@@ -18,6 +18,9 @@ Under Review ICRA 2025 <br>
 <br>
 <p style="margin-top: 40px;"></p>
 
+***
+---
+
 ## Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach
 <img style="float: right; padding-left:20px;" src="/assets/real_world_prelim_v4.png" width="300" height="390">
 
