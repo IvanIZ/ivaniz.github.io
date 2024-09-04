@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
   - {file: "bio.md", title: "Biography"}
   # - {title: "Publications", url: "https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao"}
-  - {file: "publications.md", title: "Research"}
+  - {file: "research.md", title: "Research"}
   - {file: "projects.md", title: "Projects"}
   - {title: "CV", url: "https://ivaniz.github.io/cv.pdf"}
 
