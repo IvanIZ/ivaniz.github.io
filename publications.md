@@ -9,7 +9,7 @@ For a complete list of my publications, please visit my [Google Scholar](https:/
 
 
 ## Occupancy Prediction for Autonomous Surface Vehicle Navigation in Ice-Covered Water
-* Authors: Ninghan Zhong, Alessandro Potenza, Stephen L. Smith
+Authors: Ninghan Zhong, Alessandro Potenza, Stephen L. Smith
   
 <img style="float: right; padding-left:20px;" src="/assets/sim_img.jpg" width="340" height="260">
 
@@ -19,6 +19,8 @@ Under Review ICRA 2025 [[paper](https://ieeexplore.ieee.org/abstract/document/10
 
 
 ## Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach
+Authors: Ninghan Zhong, Kris Hauser
+
 <img style="float: right; padding-left:20px;" src="/assets/real_world_prelim_v4.png" width="300" height="390">
 
 Haptic feedback can improve safety of teleoperated robots when situational awareness is limited or operators are inattentive. Standard potential field approaches increase haptic resistance as an obstacle is approached, which is desirable when the operator is unaware of the obstacle but undesirable when the movement is intentional, such as when the operator wishes to inspect or manipulate an object. This paper presents a novel haptic teleoperation framework that estimates the operator's attentiveness to obstacles and dampens haptic feedback for intentional movement. A biologically-inspired attention model is developed based on computational working memory theories to integrate visual saliency estimation with spatial mapping. The attentiveness map is generated in real-time, and our system renders lower haptic forces for obstacles that the operator is estimated to be aware of. Experimental results in simulation show that the proposed framework outperforms haptic teleoperation without attentiveness estimation in terms of task performance, robot safety, and user experience.
