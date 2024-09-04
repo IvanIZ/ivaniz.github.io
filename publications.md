@@ -15,6 +15,7 @@ Autonomous navigation in ice-covered waters poses significant challenges due to 
 
 Under Review ICRA 2025 <br>
 [[paper](https://ieeexplore.ieee.org/abstract/document/10400830)][[Github](https://drive.google.com/file/d/1FZqU1ECDhD2d93hmC90mmE7PjuCymzC-/view?usp=sharing)]
+<br>
 
 
 ## Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach
@@ -22,12 +23,14 @@ Under Review ICRA 2025 <br>
 
 Haptic feedback can improve safety of teleoperated robots when situational awareness is limited or operators are inattentive. Standard potential field approaches increase haptic resistance as an obstacle is approached, which is desirable when the operator is unaware of the obstacle but undesirable when the movement is intentional, such as when the operator wishes to inspect or manipulate an object. This paper presents a novel haptic teleoperation framework that estimates the operator's attentiveness to obstacles and dampens haptic feedback for intentional movement. A biologically-inspired attention model is developed based on computational working memory theories to integrate visual saliency estimation with spatial mapping. The attentiveness map is generated in real-time, and our system renders lower haptic forces for obstacles that the operator is estimated to be aware of. Experimental results in simulation show that the proposed framework outperforms haptic teleoperation without attentiveness estimation in terms of task performance, robot safety, and user experience.
 
-RA-L 2024 [[paper](https://ieeexplore.ieee.org/abstract/document/10400830)]
-
+RA-L 2024 <br> 
+[[paper](https://ieeexplore.ieee.org/abstract/document/10400830)]
+<br>
 
 ## Hierarchical Intention Tracking for Robust Human-Robot Collaboration in Industrial Assembly Tasks
 <img style="float: right; padding-left:20px;" src="/assets/hit_project/hit_visual.png" width="300" height="285">
 
 Collaborative robots require effective human intention estimation to safely and smoothly work with humans in less structured tasks such as industrial assembly, where human intention continuously changes. We propose the concept of intention tracking and introduce a collaborative robot system that concurrently tracks intentions at hierarchical levels. The high-level intention is tracked to estimate human's interaction pattern and enable robot to (1) avoid collision with human to minimize interruption and (2) assist human to correct failure. The low-level intention estimate provides robot with task-related information. We implement the system on a UR5e robot and demonstrate robust, seamless and ergonomic human-robot collaboration in an ablative pilot study of an assembly use case.
 
-ICRA 2023 [[paper](https://ieeexplore.ieee.org/abstract/document/10160515)][[Project Page](https://sites.google.com/view/hierarchicalintentiontracking)]
+ICRA 2023 <br> 
+[[paper](https://ieeexplore.ieee.org/abstract/document/10160515)][[Project Page](https://sites.google.com/view/hierarchicalintentiontracking)]
