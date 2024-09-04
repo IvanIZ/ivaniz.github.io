@@ -15,7 +15,7 @@ Autonomous navigation in ice-covered waters poses significant challenges due to 
 
 [[paper](https://ieeexplore.ieee.org/abstract/document/10400830)] (Under Review ICRA 2025) [[Github](https://drive.google.com/file/d/1FZqU1ECDhD2d93hmC90mmE7PjuCymzC-/view?usp=sharing)]
 
-## SLAM-based Attentiveness Map Estimation
+## Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach
 
 * Page content under construction...Coming soon!
 
