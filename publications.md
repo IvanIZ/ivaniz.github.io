@@ -17,8 +17,6 @@ Under Review ICRA 2025 <br>
 [[paper](https://ieeexplore.ieee.org/abstract/document/10400830)][[Github](https://drive.google.com/file/d/1FZqU1ECDhD2d93hmC90mmE7PjuCymzC-/view?usp=sharing)]
 <br>
 <p style="margin-top: 40px;"></p>
-
-***
 ---
 
 ## Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach
@@ -30,6 +28,7 @@ RA-L 2024 <br>
 [[paper](https://ieeexplore.ieee.org/abstract/document/10400830)]
 <br>
 <p style="margin-top: 40px;"></p>
+---
 
 ## Hierarchical Intention Tracking for Robust Human-Robot Collaboration in Industrial Assembly Tasks
 <img style="float: right; padding-left:20px;" src="/assets/hit_project/hit_visual.png" width="300" height="285">
