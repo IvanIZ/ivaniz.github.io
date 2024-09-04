@@ -5,7 +5,7 @@ title: ""
 
 ---
 
-For a complete list of my publications, please visit my [Google Scholar](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao).
+For the complete list of publications, please visit my [Google Scholar](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao) profile.
 
 
 ## Occupancy Prediction for Autonomous Surface Vehicle Navigation in Ice-Covered Water
@@ -16,7 +16,7 @@ Autonomous navigation in ice-covered waters poses significant challenges due to 
 Under Review ICRA 2025 <br>
 [[paper](https://ieeexplore.ieee.org/abstract/document/10400830)][[Github](https://drive.google.com/file/d/1FZqU1ECDhD2d93hmC90mmE7PjuCymzC-/view?usp=sharing)]
 <br>
-
+<p style="margin-top: 20px;"></p>
 
 ## Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach
 <img style="float: right; padding-left:20px;" src="/assets/real_world_prelim_v4.png" width="300" height="390">
@@ -26,6 +26,7 @@ Haptic feedback can improve safety of teleoperated robots when situational aware
 RA-L 2024 <br> 
 [[paper](https://ieeexplore.ieee.org/abstract/document/10400830)]
 <br>
+<p style="margin-top: 20px;"></p>
 
 ## Hierarchical Intention Tracking for Robust Human-Robot Collaboration in Industrial Assembly Tasks
 <img style="float: right; padding-left:20px;" src="/assets/hit_project/hit_visual.png" width="300" height="285">
