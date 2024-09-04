@@ -5,16 +5,16 @@ title: ""
 
 ---
 
-# Publications
-This page shows my side projects. For published research projects, please see my [publication page](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao).
+# Selected Publications
+For a complete list of my publications, please visit my [Google Scholar](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao).
 
 
-## Context-Aware Human-Pet-Robot Interactions
+## Occupancy Prediction for Autonomous Surface Vehicle Navigation in Ice-Covered Water
 <img style="float: right; padding-left:20px;" src="/assets/hardware_figure.jpg" width="200" height="100">
 
-Pet ownership is on the rise, yet the time and financial commitments it demands can deter many potential pet owners. Nonetheless, robotic pets have recently emerged as an appealing alternative. The foundation of a rewarding pet experience is rooted in human-pet interactions and the pets' ability to perceive the context of interactions. In this work, a context-aware human-pet-robot interaction system is developed. In particular, multi-modal sensor data, including audio and vision, are used to extract multi-channel context cues, such as the owner's posture, gesture, and audio keywords. A rule-based model is proposed to fuse the detected context signals and estimate the appropriate interaction context, such as engagement or following, and the pet robot behaves accordingly. The context detection model is evaluated in a sequence of human-robot interactions and promising evaluation results are reported. 
+Autonomous navigation in ice-covered waters poses significant challenges due to the frequent lack of viable collision-free trajectories. When complete obstacle avoidance is infeasible, it becomes imperative for the navigation strategy to minimize collisions. Additionally, the dynamic nature of ice, which moves in response to ship maneuvers, complicates the path planning process. To address these challenges, we propose a novel deep learning model to estimate the coarse dynamics of ice movements triggered by ship actions through occupancy estimation. To ensure real-time applicability, we propose a novel approach that caches intermediate prediction results and seamlessly integrates the predictive model into a graph search planner. We evaluate the proposed planner in both simulation and in a physical testbed against existing approaches and show that our planner exhibits superior performance in collision reduction. 
 
-[[Report](https://ivaniz.github.io/Context_aware_HRI_Report.pdf)] [[Demo Video](https://drive.google.com/file/d/1FZqU1ECDhD2d93hmC90mmE7PjuCymzC-/view?usp=sharing)]
+[[Under Review ICRA 2025](https://ieeexplore.ieee.org/abstract/document/10400830)] [[Demo Video](https://drive.google.com/file/d/1FZqU1ECDhD2d93hmC90mmE7PjuCymzC-/view?usp=sharing)]
 
 ## SLAM-based Attentiveness Map Estimation
 
