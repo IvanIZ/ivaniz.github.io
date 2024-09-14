@@ -11,7 +11,7 @@ title: ""
     * Expected graduation: Aug 2025
 
 * B.S. in Computer Science, University of Illinois at Urbana-Champaign
-    * Graduate with The Highest Honors in 2022
+    * Graduated with The Highest Honors in 2022
 
 ## Experience
 
