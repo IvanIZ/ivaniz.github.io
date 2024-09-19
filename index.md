@@ -13,6 +13,6 @@ My research interests are in robotics and robot learning, particularly in the co
 
 
 ## News
-* [Sept 2024] Our recent work "[Occupancy Prediction for Autonomous Surface Vehicle Navigation in Ice-Covered Water](https://motion.cs.illinois.edu/papers/RAL2024-Zhong-AttentivenessMap-preprint.pdf)" is currently under review for ICRA 2025!
-* [Dec 2023] Our paper "[Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach](https://motion.cs.illinois.edu/papers/RAL2024-Zhong-AttentivenessMap-preprint.pdf)" has been accepted by IEEE RA-L for publication!
-* [Jan 2023] Our paper "[Hierarchical Intention Tracking for Robust Human-Robot Collaboration in Industrial Assembly Tasks](https://arxiv.org/abs/2203.09063)" has been accepted by ICRA 2023 for publication!
+* [Sept 2024] Our recent work "[Autonomous Navigation in Ice-Covered Waters with Learned Predictions on Ship-Ice Interactions](https://arxiv.org/pdf/2409.11326v1)" is currently under review for ICRA 2025!
+* [Dec 2023] Our paper "[Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach](https://ieeexplore.ieee.org/abstract/document/10400830)" has been accepted by IEEE RA-L for publication!
+* [Jan 2023] Our paper "[Hierarchical Intention Tracking for Robust Human-Robot Collaboration in Industrial Assembly Tasks](https://ieeexplore.ieee.org/abstract/document/10160515)" has been accepted by ICRA 2023 for publication!
