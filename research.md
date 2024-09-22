@@ -14,7 +14,7 @@ For the complete list of publications, please visit my [Google Scholar](https://
 Autonomous navigation in ice-covered waters poses significant challenges due to the frequent lack of viable collision-free trajectories. When complete obstacle avoidance is infeasible, it becomes imperative for the navigation strategy to minimize collisions. Additionally, the dynamic nature of ice, which moves in response to ship maneuvers, complicates the path planning process. To address these challenges, we propose a novel deep learning model to estimate the coarse dynamics of ice movements triggered by ship actions through occupancy estimation. To ensure real-time applicability, we propose a novel approach that caches intermediate prediction results and seamlessly integrates the predictive model into a graph search planner. We evaluate the proposed planner in both simulation and in a physical testbed against existing approaches and show that our planner exhibits superior performance in collision reduction. 
 
 Under Review ICRA 2025 <br>
-[[Paper](https://arxiv.org/pdf/2409.11326)][[Project Page](https://sites.google.com/view/predictive-asv-nav/)][[Github](https://github.com/IvanIZ/predictive-asv-planner)]
+[[Paper](https://arxiv.org/pdf/2409.11326v1)][[Project Page](https://sites.google.com/view/predictive-asv-nav/)][[Github](https://github.com/IvanIZ/predictive-asv-planner)]
 <br>
 <p style="margin-top: 40px;"></p>
 ---
