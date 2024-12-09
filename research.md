@@ -8,6 +8,15 @@ title: ""
 For the complete list of publications, please visit my [Google Scholar](https://scholar.google.ca/citations?user=8zyHdjoAAAAJ&hl=en&oi=ao) profile.
 
 
+## Diffusion Planning for Non-Prehensile Navigation Among Movable Obstacles
+<img style="float: right; padding-left:20px;" src="/assets/diffusion2.png" width="350" height="340">
+
+Mobile robots are frequently tasked with navigating cluttered environments where a collision-free path may be infeasible or requires significantly longer travel. In many cases, however, obstacles in these environments are movable, leading to Navigation Among Movable Obstacles (NAMO). Prior NAMO approaches often equip robots with manipulators to clear obstacles from the planned path. However, manipulators are not feasible for all robots due to structural constraints, cost considerations, and the nature of certain tasks. This ongoing research addresses this gap by exploring non-prehensile NAMO, where the robot interacts with obstacles using non-grasping actions such as pushing. We study diverse non-prehensile NAMO tasks, including goal-directed navigation (e.g., autonomous navigation in icy waters), obstacle pushing for delivery and object arrangement, and area-clearing operations. Given the long-horizon nature and non-convex learning landscape of these tasks, we leverage diffusion models due to their strengths in non-greedy decision-making and long-horizon scalability. Preliminary results in the context of autonomous navigation through icy waters—a practical instance of non-prehensile NAMO—have demonstrated promising performance compared to state-of-the-art path planners.
+
+<br>
+<p style="margin-top: 40px;"></p>
+---
+
 ## Autonomous Navigation in Ice-Covered Waters with Learned Predictions on Ship-Ice Interactions
 <img style="float: right; padding-left:20px;" src="/assets/method_video_fps7.gif" width="400" height="225">
 
