@@ -9,7 +9,7 @@ For the complete list of publications, please visit my [Google Scholar](https://
 
 
 ## Diffusion Planning for Non-Prehensile Navigation Among Movable Obstacles
-<img style="float: right; padding-left:20px;" src="/assets/diffusion_visual.png" width="350" height="290">
+<img style="float: right; padding-left:20px;" src="/assets/diffusion_visual2.png" width="300" height="298">
 
 Mobile robots are frequently tasked with navigating in cluttered environments where obstacles are movable, leading to Navigation Among Movable Obstacles (NAMO). Prior NAMO methods often rely on manipulators to remove obstacles from the planned path. However, manipulators are not feasible for all robots due to cost considerations, structural and task constraints. This work addresses this gap by exploring non-prehensile NAMO, where the robot interacts with obstacles using non-grasping actions such as pushing. We study diverse non-prehensile NAMO tasks, including goal-directed navigation (e.g., autonomous navigation in icy waters), pushing tasks for object deliveries and arrangements, and area-clearing operations. Given the long-horizon nature and extremely non-convex learning landscape of these tasks, we leverage diffusion models due to their strengths in non-greedy decision-making and long-horizon scalability. Preliminary studies in the context of autonomous navigation through icy waters—a practical instance of non-prehensile NAMO—have demonstrated promising performance compared to state-of-the-art planners.
 
