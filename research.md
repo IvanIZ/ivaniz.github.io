@@ -16,6 +16,17 @@ Mobile robots are frequently tasked with navigating in cluttered environments wh
 <p style="margin-top: 40px;"></p>
 ---
 
+## Bench-NPIN: Benchmarking Non-prehensile Interactive Navigation
+<img style="float: right; padding-left:20px;" src="/assets/benchnpin_intro.gif" width="400" height="131">
+
+Mobile robots are increasingly deployed in unstructured environments where obstacles and objects are movable. Navigation in such environments is known as interactive navigation, where task completion requires not only avoiding obstacles but also strategic interactions with movable objects. Non-prehensile interactive navigation focuses on non-grasping interaction strategies, such as pushing, rather than relying on prehensile manipulation. Despite a growing body of research in this field, most solutions are evaluated using case-specific setups, limiting reproducibility and cross-comparison. In this paper, we present Bench-NPIN, the first comprehensive benchmark for non-prehensile interactive navigation. Bench-NPIN includes multiple components: 1) a comprehensive range of simulated environments for non-prehensile interactive navigation tasks, including navigating a maze with movable obstacles, autonomous ship navigation in icy waters, box delivery, and area clearing, each with varying levels of complexity; 2) a set of evaluation metrics that capture unique aspects of interactive navigation, such as efficiency, interaction effort, and partial task completion; and 3) demonstrations using Bench-NPIN to evaluate example implementations of established baselines across environments. Bench-NPIN is also now an open-source Python library with a modular design.
+
+Under Review for IROS 2025 <br>
+[[Paper](https://arxiv.org/pdf/2409.11326v1)][[Project Page](https://sites.google.com/view/bench-npin/home)][[Github](https://github.com/IvanIZ/BenchNPIN)]
+<br>
+<p style="margin-top: 40px;"></p>
+---
+
 ## Autonomous Navigation in Ice-Covered Waters with Learned Predictions on Ship-Ice Interactions
 <img style="float: right; padding-left:20px;" src="/assets/method_video_fps7.gif" width="400" height="225">
 
