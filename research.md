@@ -17,7 +17,7 @@ Mobile robots are frequently tasked with navigating in cluttered environments wh
 ---
 
 ## Bench-NPIN: Benchmarking Non-prehensile Interactive Navigation
-<img style="float: right; padding-left:20px; padding-bottom: 20px;" src="/assets/benchnpin_intro.gif" width="300" height="470">
+<img style="float: right; padding-left:20px;" src="/assets/benchnpin_intro.gif" width="300" height="470">
 
 Mobile robots often operate in unstructured environments where obstacles and objects are movable. Navigation in such environments is known as interactive navigation, where task completion requires interactions with movable objects. Non-prehensile interactive navigation focuses on non-grasping interaction strategies such as pushing. While research in this area is growing, evaluation remains inconsistent due to case-specific setups. We present Bench-NPIN, the first comprehensive benchmark for non-prehensile interactive navigation. Bench-NPIN includes multiple components: 1) a comprehensive range of simulated environments for non-prehensile interactive navigation tasks, each with varying levels of complexity; 2) a set of evaluation metrics that capture unique aspects of interactive navigation, such as efficiency, interaction effort, and partial task completion; and 3) demonstrations using Bench-NPIN to evaluate established baselines across environments. Bench-NPIN is also now an open-source Python library with a modular design.
 
