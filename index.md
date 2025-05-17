@@ -13,7 +13,7 @@ My research interests are in robotics and robot learning, particularly in the co
 
 
 ## News
-* [Recent] I will begin my Ph.D. in Robotics at the Georgia Institute of Technology in Fall 2025! 🐝 Go Buzz!!
+* [Recent] I will begin my **Ph.D. in Robotics** at the Georgia Institute of Technology in Fall 2025! 🐝 Go Buzz!!
 * [Mar 2025] Our recent work "[Bench-NPIN: Benchmarking Non-prehensile Interactive Navigation](https://arxiv.org/pdf/2409.11326v1)" is currently under review for IROS 2025. Check out the [preprint](https://arxiv.org/pdf/2409.11326v1)!
 * [Sept 2024] Our work "[Autonomous Navigation in Ice-Covered Waters with Learned Predictions on Ship-Ice Interactions](https://arxiv.org/pdf/2409.11326v1)" has been accepted by ICRA 2025 for publication!
 * [Dec 2023] Our paper "[Attentiveness Map Estimation for Haptic Teleoperation of Mobile Robot Obstacle Avoidance and Approach](https://ieeexplore.ieee.org/abstract/document/10400830)" has been accepted by IEEE RA-L for publication!
