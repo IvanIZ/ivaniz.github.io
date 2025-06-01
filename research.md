@@ -11,7 +11,7 @@ For the complete list of publications, please visit my [Google Scholar](https://
 ## Skill Chaining for Interactive Navigation (*Work in Progress*)
 <img style="float: right; padding-left:20px;" src="/assets/skill_learning_demo1.png"  width="400" height="225">
 
-This ongoing project explores the use of generative models to enable long-horizon skill chaining for interactive mobile robot tasks in cluttered environments. The focus is on improving generalizability and robustness in skill composition under uncertainty. In particular, it investigates how learned skill priors and temporal abstractions can be leveraged to plan meaningful multi-step behaviors in cluterred scenes. This direction contributes toward scalable and adaptive robot behavior generation in real-world, interaction-rich navigation settings.
+This ongoing project explores the use of generative models to enable long-horizon skill chaining for interactive mobile robot tasks in cluttered environments. The focus is on improving generalizability and robustness in skill composition under uncertainty. Specifically, we investigate how learned skill priors and temporal abstractions can be leveraged to generate meaningful multi-step behaviors, and how execution-time uncertainty from environmental constraints and clutteredness can be anticipated and handled gracefully. This direction aims to enable scalable and adaptive robot behavior generation in real-world, interaction-rich navigation settings.
 
 <p style="margin-top: 40px;"></p>
 ---
