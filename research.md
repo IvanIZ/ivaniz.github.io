@@ -21,8 +21,8 @@ This ongoing project explores the use of generative models to enable long-horizo
 
 Mobile robots often operate in unstructured environments where obstacles and objects are movable. Navigation in such environments is known as interactive navigation, where task completion requires interactions with movable objects. Non-prehensile interactive navigation focuses on non-grasping interaction strategies such as pushing. While research in this area is growing, evaluation remains inconsistent due to case-specific setups. We present Bench-NPIN, the first comprehensive benchmark for non-prehensile interactive navigation. Bench-NPIN includes multiple components: 1) a comprehensive range of simulated environments for non-prehensile interactive navigation tasks, each with varying levels of complexity; 2) a set of evaluation metrics that capture unique aspects of interactive navigation, such as efficiency, interaction effort, and partial task completion; and 3) demonstrations using Bench-NPIN to evaluate established baselines across environments. Bench-NPIN is also now an open-source Python library with a modular design.
 
-**Under Review for IROS 2025** <br>
-[[Paper](https://arxiv.org/pdf/2409.11326v1)][[Project Page](https://sites.google.com/view/bench-npin/home)][[Github](https://github.com/IvanIZ/BenchNPIN)]
+**Extended version in prep. for conference submission** <br>
+[[Previous preprint](https://arxiv.org/pdf/2409.11326v1)][[Project Page](https://sites.google.com/view/bench-npin/home)][[Github](https://github.com/IvanIZ/BenchNPIN)]
 <br>
 <p style="margin-top: 40px;"></p>
 ---
