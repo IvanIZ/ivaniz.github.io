@@ -1,0 +1,61 @@
+# Homepage content, rendered by _layouts/home.liquid.
+# The bio text is in _pages/about.md, papers are in _bibliography/papers.bib,
+# and each news item is a small file in _news/.
+
+role: Robotics PhD student · Georgia Tech
+photo: /assets/img/headshot.jpg
+photo_size: 600x784
+
+contact:
+  - label: Email
+    url: mailto:nzhong34@gatech.edu
+  - label: CV
+    url: /assets/pdf/cv.pdf
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=8zyHdjoAAAAJ
+  - label: GitHub
+    url: https://github.com/IvanIZ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/ninghanzhong
+
+news_limit: 5
+
+# Research groups, in display order. `id` matches the `theme` field in papers.bib.
+research_groups:
+  - id: vla
+    title: Steering VLAs with Visual Plans
+  - id: contact
+    title: Learning and Planning Through Physical Contact
+  - id: hri
+    title: "Earlier Work: Human-Robot Interaction"
+
+# Logos live in assets/img/logos/.
+experience:
+  - name: Georgia Tech
+    role: PhD in Robotics
+    when: 2025–present
+    logo: gatech.png
+  - name: University of Waterloo
+    role: MASc in ECE, Autonomous Systems Lab
+    when: 2023–2025
+    logo: uwaterloo.svg
+  - name: UIUC
+    role: B.S. in Computer Science, Highest Honors
+    when: 2018–2022
+    logo: uiuc.png
+  - name: Golden Ridge Robotics
+    role: Computer Vision & Algorithms Intern
+    when: May–Jul 2021
+    logo: goldenridge.png
+
+awards:
+  - when: Nov 2023
+    text: International Master’s Award of Excellence ($12,500 CAD), University of Waterloo
+  - when: "2022"
+    text: The Highest Honors at graduation, UIUC
+
+service:
+  - label: Journal reviewer
+    text: IEEE Transactions on Robotics (T-RO), Reliability Engineering & System Safety
+  - label: Conference reviewer
+    text: IROS 2025, MRS 2025

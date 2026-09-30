@@ -1,5 +1,7 @@
 # Agent Guidelines for al-folio (v1.x)
 
+> **This repository is Ninghan Zhong's personal site, created from the al-folio template.** The local `_layouts/`, `_sass/` and `assets/css/main.scss` files are intentional site overrides (see `README.md`); the "stop sign" below applies to the upstream al-folio starter, not to this site. The design plan lives outside the repo in `../Website-Plan.md` and `../HANDOFF.md`.
+
 **This file is the authoritative entry point for coding agents working in this repo.** Read it before making any change. It is intentionally short and tool-neutral; it links to the one place each longer-form fact lives.
 
 `al-folio` v1.x is a **thin Jekyll starter, not a theme**. This repo owns starter wiring, example content, docs, and cross-plugin tests. All runtime — layouts, includes, Sass, Liquid tags, filters, feature JS — lives in versioned gems published under [`al-org-dev`](https://github.com/al-org-dev).

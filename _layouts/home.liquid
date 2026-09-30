@@ -1,0 +1,117 @@
+---
+layout: default
+---
+{%- comment -%}
+  Homepage. Content comes from _data/home.yml (role, links, groups, experience,
+  awards, service), _news/ (news items), _bibliography/papers.bib (research rows,
+  rendered by _layouts/research_row.liquid) and the page body (the bio).
+{%- endcomment -%}
+{%- assign home = site.data.home -%}
+{%- assign photo_dims = home.photo_size | split: 'x' -%}
+<div class="nz-home">
+  <section class="nz-intro">
+    <div class="nz-head">
+      <h1 class="nz-name">{{ site.first_name }} {{ site.last_name }}</h1>
+      <p class="nz-role">{{ home.role }}</p>
+    </div>
+    <p class="nz-contact">
+      {%- for c in home.contact -%}
+        {%- if c.url contains '://' or c.url contains 'mailto:' -%}
+          {%- assign href = c.url -%}
+        {%- else -%}
+          {%- assign href = c.url | relative_url -%}
+        {%- endif -%}
+        <a href="{{ href }}">{{ c.label }}</a>
+      {%- endfor -%}
+    </p>
+    <img
+      class="nz-photo"
+      src="{{ home.photo | relative_url }}"
+      alt="Portrait of {{ site.first_name }} {{ site.last_name }}"
+      width="{{ photo_dims[0] }}"
+      height="{{ photo_dims[1] }}"
+    >
+    <div class="nz-bio">{{ content }}</div>
+  </section>
+
+  {%- if site.news.size > 0 %}
+    <section class="nz-sec" aria-labelledby="news">
+      <h2 class="nz-h2" id="news">News</h2>
+      <ul class="nz-dated">
+        {%- assign news_items = site.news | sort: 'date' | reverse -%}
+        {%- for item in news_items limit: home.news_limit %}
+          <li>
+            <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time>
+            <span>{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+          </li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
+  <section class="nz-sec nz-research" aria-labelledby="research">
+    <h2 class="nz-h2" id="research">Research</h2>
+    {%- for g in home.research_groups %}
+      <div class="nz-group">
+        <h3 class="nz-h3"><span>{{ g.title }}</span></h3>
+        {% bibliography --template research_row --group_by none --query @*[theme={{g.id}}] %}
+      </div>
+    {%- endfor %}
+  </section>
+
+  <section class="nz-sec" aria-labelledby="experience">
+    <h2 class="nz-h2" id="experience">Experience</h2>
+    <div class="nz-exp">
+      {%- for x in home.experience %}
+        <div class="nz-exp-item">
+          <span class="nz-logo">
+            <img src="{{ x.logo | prepend: '/assets/img/logos/' | relative_url }}" alt="" width="42" height="42" loading="lazy">
+          </span>
+          <div>
+            <div class="nz-exp-name">{{ x.name }}</div>
+            <div class="nz-exp-role">{{ x.role }}</div>
+            <div class="nz-exp-when">{{ x.when }}</div>
+          </div>
+        </div>
+      {%- endfor %}
+    </div>
+  </section>
+
+  {%- if home.awards.size > 0 %}
+    <section class="nz-sec" aria-labelledby="awards">
+      <h2 class="nz-h2" id="awards">Awards and Honors</h2>
+      <ul class="nz-dated">
+        {%- for a in home.awards %}
+          <li>
+            <time>{{ a.when }}</time><span>{{ a.text }}</span>
+          </li>
+        {%- endfor %}
+      </ul>
+    </section>
+  {%- endif %}
+
+  <section class="nz-sec" aria-labelledby="service">
+    <h2 class="nz-h2" id="service">Service</h2>
+    <dl class="nz-service">
+      {%- for s in home.service %}
+        <dt>{{ s.label }}</dt>
+        <dd>{{ s.text }}</dd>
+      {%- endfor %}
+    </dl>
+  </section>
+</div>
+
+<script>
+  // Research clips autoplay muted. Visitors who ask for reduced motion get a still poster with controls instead.
+  (function () {
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    document.querySelectorAll(".nz-pub video").forEach(function (v) {
+      v.muted = true;
+      if (reduce) {
+        v.removeAttribute("autoplay");
+        v.pause();
+        v.setAttribute("controls", "");
+      }
+    });
+  })();
+</script>

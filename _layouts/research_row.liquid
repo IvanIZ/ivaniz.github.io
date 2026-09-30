@@ -1,0 +1,108 @@
+---
+---
+{%- comment -%}
+  One homepage research row, rendered by jekyll-scholar for each entry:
+  {% bibliography --template research_row --query @*[theme=...] %} in _layouts/home.liquid.
+  Author handling (self detection, equal-contribution marks) follows al_folio_core's bib.liquid.
+{%- endcomment -%}
+{%- assign media_dims = entry.media_size | split: 'x' -%}
+{%- assign media_ext = entry.media | split: '.' | last | downcase -%}
+<article class="nz-pub" id="{{ entry.key }}">
+  {%- if entry.media %}
+    <div class="nz-pub-media{% if entry.media2 %} nz-pub-stack{% endif %}">
+      {%- if media_ext == 'mp4' or media_ext == 'webm' %}
+        {%- assign poster = entry.media | replace: '.mp4', '.jpg' | replace: '.webm', '.jpg' %}
+        <video
+          src="{{ entry.media | prepend: '/assets/video/research/' | relative_url }}"
+          poster="{{ poster | prepend: '/assets/video/research/' | relative_url }}"
+          width="{{ media_dims[0] }}"
+          height="{{ media_dims[1] }}"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          aria-label="{{ entry.media_alt | escape }}"
+        ></video>
+        {%- if entry.media2 %}
+          {%- assign poster2 = entry.media2 | replace: '.mp4', '.jpg' | replace: '.webm', '.jpg' %}
+          <video
+            src="{{ entry.media2 | prepend: '/assets/video/research/' | relative_url }}"
+            poster="{{ poster2 | prepend: '/assets/video/research/' | relative_url }}"
+            width="{{ media_dims[0] }}"
+            height="{{ media_dims[1] }}"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            aria-label="{{ entry.media2_alt | escape }}"
+          ></video>
+        {%- endif %}
+      {%- else %}
+        <img
+          src="{{ entry.media | prepend: '/assets/img/research/' | relative_url }}"
+          width="{{ media_dims[0] }}"
+          height="{{ media_dims[1] }}"
+          alt="{{ entry.media_alt | escape }}"
+          loading="lazy"
+        >
+      {%- endif %}
+    </div>
+  {%- endif %}
+  <div class="nz-pub-body">
+    {%- if entry.abbr %}
+      <div class="nz-pub-meta"><span class="nz-badge">{{ entry.abbr }}</span></div>
+    {%- endif %}
+    <h4 class="nz-pub-title">{{ entry.title }}</h4>
+    <p class="nz-pub-authors">
+      {%- for author in entry.author_array -%}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- assign author_is_self = false -%}
+        {%- if site.scholar.last_name contains author_last_name and site.scholar.first_name contains author.first -%}
+          {%- assign author_is_self = true -%}
+        {%- endif -%}
+        {%- capture author_name -%}
+          {{- author.first }} {% if author.von and author.von != '' %}{{ author.von }} {% endif %}{{ author_last_html -}}
+        {%- endcapture -%}
+        {%- if author_is_self -%}
+          <b class="nz-me">{{ author_name }}</b>
+        {%- else -%}
+          {{ author_name }}
+        {%- endif -%}
+        {%- unless forloop.last %}, {% endunless -%}
+      {%- endfor -%}
+      {%- if entry.author_note %} <span class="nz-eq">({{ entry.author_note }})</span>{% endif -%}
+    </p>
+    {%- if entry.tldr %}
+      <p class="nz-pub-tldr">{{ entry.tldr }}</p>
+    {%- endif %}
+    {%- if entry.tags %}
+      <div class="nz-tags">
+        {%- assign tags = entry.tags | split: ',' -%}
+        {%- for t in tags -%}
+          <span class="nz-tag">{{ t | strip }}</span>
+        {%- endfor -%}
+      </div>
+    {%- endif %}
+    <div class="nz-btns">
+      {%- if entry.website %}<a class="nz-btn" href="{{ entry.website }}">Project</a>{% endif -%}
+      {%- if entry.pdf -%}
+        {%- if entry.pdf contains '://' -%}
+          {%- assign paper_url = entry.pdf -%}
+        {%- else -%}
+          {%- assign paper_url = entry.pdf | prepend: '/assets/pdf/' | relative_url -%}
+        {%- endif -%}
+        <a class="nz-btn" href="{{ paper_url }}">Paper</a>
+      {%- endif -%}
+      {%- if entry.arxiv %}<a class="nz-btn" href="https://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a>{% endif -%}
+      {%- if entry.code -%}
+        <a class="nz-btn" href="{{ entry.code }}">Code</a>
+      {%- elsif entry.code_soon -%}
+        <span class="nz-btn nz-btn-off">Code (soon)</span>
+      {%- endif -%}
+      {%- if entry.video %}<a class="nz-btn" href="{{ entry.video }}">Video</a>{% endif -%}
+    </div>
+  </div>
+</article>

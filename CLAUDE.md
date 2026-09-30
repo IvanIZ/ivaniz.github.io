@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+> **This repository is Ninghan Zhong's personal site, created from the al-folio template.** The local `_layouts/`, `_sass/` and `assets/css/main.scss` files are intentional site overrides (see `README.md`); the "stop sign" below applies to the upstream al-folio starter, not to this site. The design plan lives outside the repo in `../Website-Plan.md` and `../HANDOFF.md`.
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 @AGENTS.md

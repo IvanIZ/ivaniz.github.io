@@ -1,0 +1,21 @@
+<!doctype html>
+{%- comment -%}
+  Immediate redirect, used by the CV nav item (_pages/cv.md) to open the PDF directly.
+  al_folio_core's built-in `redirect` waits 3 seconds, which feels broken for a nav link.
+{%- endcomment -%}
+{%- assign target = page.redirect_to | relative_url -%}
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.first_name }} {{ site.last_name }}</title>
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ target }}">
+    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+    <script>
+      window.location.replace("{{ target }}");
+    </script>
+  </head>
+  <body>
+    <p><a href="{{ target }}">Open the {{ page.title }}</a></p>
+  </body>
+</html>
