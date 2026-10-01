@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ivaniz.github.io/website-preview/sitemap.xml
+Sitemap: https://ivaniz.github.io/sitemap.xml
