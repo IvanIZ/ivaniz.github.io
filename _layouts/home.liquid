@@ -91,11 +91,11 @@ layout: default
   {%- endif %}
 
   <section class="nz-sec" aria-labelledby="service">
-    <h2 class="nz-h2" id="service">Service</h2>
+    <h2 class="nz-h2" id="service">Service and Teaching</h2>
     <dl class="nz-service">
       {%- for s in home.service %}
         <dt>{{ s.label }}</dt>
-        <dd>{{ s.text }}</dd>
+        <dd>{{ s.text | join: '<br>' }}</dd>
       {%- endfor %}
     </dl>
   </section>

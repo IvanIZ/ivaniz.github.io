@@ -40,6 +40,10 @@ experience:
     when: 2023–2025
     logo: uwaterloo.svg
   - name: UIUC
+    role: Research Assistant, Intelligent Motion Lab
+    when: 2022–2023
+    logo: uiuc.png
+  - name: UIUC
     role: B.S. in Computer Science, Highest Honors
     when: 2018–2022
     logo: uiuc.png
@@ -54,8 +58,13 @@ awards:
   - when: "2022"
     text: The Highest Honors at graduation, UIUC
 
+# Service and Teaching. `text` can also be a list; each item gets its own line.
 service:
   - label: Journal reviewer
     text: IEEE Transactions on Robotics (T-RO), Reliability Engineering & System Safety
   - label: Conference reviewer
     text: IROS 2025, MRS 2025
+  - label: Teaching assistant
+    text:
+      - ECE 208 Discrete Math II, University of Waterloo (Spring 2024)
+      - ECE 484 Principles of Safe Autonomy, UIUC (Spring 2022)

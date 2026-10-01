@@ -7,7 +7,7 @@ Ninghan Zhong's academic website, built with [al-folio](https://github.com/alshe
 | What | Where |
 | --- | --- |
 | Bio | `_pages/about.md` |
-| Role line, contact links, research groups, experience, awards, service | `_data/home.yml` |
+| Role line, contact links, research groups, experience, awards, service and teaching | `_data/home.yml` |
 | Papers (homepage rows and the Publications page) | `_bibliography/papers.bib` |
 | News items, one file each | `_news/` |
 | Research clips (`.mp4` plus a `.jpg` poster of the same name) | `assets/video/research/` |
