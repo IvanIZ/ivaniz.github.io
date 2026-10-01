@@ -12,6 +12,7 @@ Ninghan Zhong's academic website, built with [al-folio](https://github.com/alshe
 | News items, one file each | `_news/` |
 | Research clips (`.mp4` plus a `.jpg` poster of the same name) | `assets/video/research/` |
 | Research figures | `assets/img/research/` |
+| Publications-page thumbnails | `assets/img/publication_preview/` |
 | Institution logos | `assets/img/logos/` |
 | CV (the nav "CV" link opens it) | `assets/pdf/cv.pdf` |
 | Style: a, b or c | `site_style` in `_config.yml` |
@@ -20,6 +21,7 @@ Ninghan Zhong's academic website, built with [al-folio](https://github.com/alshe
 
 1. Add a BibTeX entry to `_bibliography/papers.bib`. For the homepage, give it a `theme` (`vla`, `contact` or `hri`), a one-line `tldr`, comma-separated `tags`, and `media` with `media_size`. Links go in `website` (project page), `pdf` (paper), `arxiv` (ID only) and `code`.
 2. Put its clip and poster in `assets/video/research/`, or an image in `assets/img/research/`. Keep clips short (about 10 s), muted and under 2 MB.
+3. For the Publications page, add a still image about 480 px wide to `assets/img/publication_preview/`, and name it in the entry's `preview` field.
 
 ## Add a news item
 
